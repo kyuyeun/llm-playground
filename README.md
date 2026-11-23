@@ -4,6 +4,13 @@ A standalone multi-model chat UI inspired by the Vourix Hermes playground: compo
 
 This is a **plain LLM chat** over [OpenRouter](https://openrouter.ai) (`/v1/chat/completions`). It is **not** an agent runtime — no tools, skills, or workspace deliver backend.
 
+## Why I built this
+
+I wanted a lightweight interface for exploring different language models in one place, rather than switching between providers. This project focuses on model selection, streaming chat, and turning model-generated text into downloadable artifacts.
+
+**Try the public demo:** https://llm-playground-olive.vercel.app/  
+**Scope:** This is a chat UI, not an autonomous agent, memory system, or tool-execution environment. Bring your own OpenRouter API key; do not enter sensitive information you are not comfortable sending to the selected model provider.
+
 ## Features
 
 - Playground-style layout (centered transcript, sticky composer, dot-grid background)
